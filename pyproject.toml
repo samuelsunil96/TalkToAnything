@@ -1,0 +1,13 @@
+[project]
+name = "talktoanything"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aider>=0.2.6",
+    "cookiecutter>=2.6.0",
+    "fastapi>=0.118.0",
+    "litellm>=1.77.5",
+    "openai>=2.1.0",
+]
