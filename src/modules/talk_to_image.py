@@ -1,3 +1,5 @@
+import cv2
+
 class ImageHandler:
     """Class to handle image processing using YOLO."""
 
