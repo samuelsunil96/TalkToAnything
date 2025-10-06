@@ -5,7 +5,6 @@ class ImageHandler:
 
     def __init__(self, model_path):
         """Initialize the ImageHandler with the YOLO model."""
-        import cv2
         from yolo_module import YOLO  # Replace with actual YOLO import
         self.model = YOLO(model_path)
 
