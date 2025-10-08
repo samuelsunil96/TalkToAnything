@@ -8,4 +8,7 @@
 *.DS_Store
 *.pyc
 *.pyo
+__pycache__/
 .venv
+inputs/images/test.png
+doclaymodel/doclayout_yolo_docstructbench_imgsz1024.pt
