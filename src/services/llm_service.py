@@ -1,6 +1,6 @@
 import os
 from openai import OpenAI
-from utils.image_utils import encode_image, get_image_input  # Import the encode_image function
+from src.utils.image_utils import encode_image, get_image_input  # Import the encode_image function
 
 from dotenv import load_dotenv
 

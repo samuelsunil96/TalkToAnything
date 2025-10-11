@@ -21,3 +21,6 @@ print(openai_extraction_result)
 # extractor = ImageOCRHandler()
 # extraction_result = extractor.process_image(input_image_path)  # Use the variable
 # print(extraction_result)
+
+
+''' next steps would be to send the user query along with the extracted text from openai to the openai'''
