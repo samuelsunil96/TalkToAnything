@@ -1,0 +1,30 @@
+ll. Literature Review
+
+Through supervised and unsupervised machine learning integration the proposed hybrid
+intrusion detection system by (Shahbandayeva et al., 2022) safeguards networks from known and
+unidentified attacks. The methodology implements three classification algorithms namely K-Nearest
+Neighbors (KNN) along with Random Forest and Artificial Neural Networks (ANN) to identify network
+traffic according to predefined classification schemes. The uncertain network traffic data is processed
+using HDBSCAN clustering to separate benign activities from malicious ones. Training of the system
+used the CICIDS 2018 dataset that extracted 79 network flow features resulting in the selection of 23
+important features for classification through the Random Forest Regressor.
+
+A network traffic analysis assigns classification labels through the 15 categories from the dataset with
+benign traffic included among the categories. A classification threshold for the Receiver Operating
+Characteristic (ROC) curve analysis sets a probability value of 0.8 as the threshold for confident
+classifications. Data points failing the confidence threshold go to the clustering phase to receive
+processing from the Density-Based Spatial Clustering for Applications with Noise (DBSCAN) algorithm.
+The utilization of HDBSCAN is necessary because DBSCAN fails to effectively cluster data sets with
+diverse density levels. HDBSCAN offers effective malicious traffic identification by enabling the system
+to employ hierarchical clustering combined with stability measures when differentiating between
+benign traffic.
+
+The Fi-scores obtained by classification algorithms reach between 0.93 to 0.969 for known attack
+detection. The Fi-scores of the clustering phase fall between 0.85 and 0.957 when processing
+unclassified data points. The CICIDS 2018 dataset shows known attack classification recall scores
+between 0.94 to 0.96 whereas unknown attack recall values span from 0.48 to 0.96. The recall metrics
+for classifying unknown attacks in CICIDS 2017 data ranges between 0.76 to 0.83 because the
+algorithms fail to recognize new attack patterns. The clustering methods demonstrated reliable
+performance throughout the testing phases since they produced first CICIDS 2018 results between
+0.75 and 0.93 and second CICIDS 2018 results between 0.95 and 1.0 as well as CICIDS 2017 results
+between 0.90 and 0.95.

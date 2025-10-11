@@ -1,14 +1,22 @@
-.aider*
+# Environment files
 .env
-# Irrelevant files
-*.log
-*.tmp
-*.bak
-*.swp
-*.DS_Store
+.venv
+
+# Python cache files
+__pycache__/
 *.pyc
 *.pyo
-__pycache__/
-.venv
+
+# Temporary files
+*.bak
+*.log
+*.swp
+*.tmp
+*.DS_Store
+
+# Other files
+.aider*
 inputs/images/test.png
 doclaymodel/doclayout_yolo_docstructbench_imgsz1024.pt
+project_tree.txt
+scripts/python/project_tree.py
